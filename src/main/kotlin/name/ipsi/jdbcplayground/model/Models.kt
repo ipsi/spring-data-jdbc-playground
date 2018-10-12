@@ -12,7 +12,7 @@ data class Application(
         val applicationState: String,
 //        @Column(value = "APPLICATION_ID", keyColumn = "APPLICANT_ORDER")
 //        @Column(value = "APPLICATION_ID")
-        var applicants: java.util.Set<Applicant>
+        var applicants: Set<Applicant>
 )
 
 data class Applicant(
